@@ -1,0 +1,14 @@
+{
+  "name": "core-frontend-gulp",
+  "version": "1.0.0",
+  "description": "Frontend Environment con gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Callalle",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
