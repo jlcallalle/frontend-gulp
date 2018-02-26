@@ -1,6 +1,35 @@
 
 # Created by https://www.gitignore.io/api/windows,linux,osx,macos,node,git,visualstudiocode
 
+### Sublime text directory ###
+*.sublime-workspace
+*.sublime-project
+
+### Prepros Directory###
+prepros.cfg
+prepros-6.config
+
+
+# Bower dependency directory (https://bower.io/) 
+# Folders to ignore
+bower_components
+source/bower_components
+*/bower_components
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+
+# SCSS-Lint
+scss-lint-report.xml
+
+# grunt-contrib-sass cache
+.sass-cache
+
+
 ### Git ###
 *.orig
 
@@ -73,8 +102,7 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-# Bower dependency directory (https://bower.io/)
-bower_components
+
 
 # node-waf configuration
 .lock-wscript
@@ -82,9 +110,7 @@ bower_components
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
+
 
 # Typescript v1 declaration files
 typings/
@@ -148,3 +174,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/windows,linux,osx,macos,node,git,visualstudiocode
+

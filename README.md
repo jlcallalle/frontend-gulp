@@ -72,13 +72,39 @@ gulp.task('default', function() {
 ```
 
 
-#### 4. Ejecutamos gulp:
+#### 5. Ejecutamos Gulp:
 
 ```sh
 $ gulp
 ```
 
 Por default se ejecutará la tarea.
+
+
+
+
+#### 6.  Gulp Sass:
+
+```sh
+$npm install gulp-sass --save-dev
+```
+
+```js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+gulp.task('default', function() {
+  // place code for your default task here
+  console.log('hola mundo');
+});
+
+gulp.task('sass', function(){
+   return gulp.src('scss/main.scss')
+       .pipe(sass())
+       .pipe(gulp.dest('../site/css'))
+});
+```
+
 
 
 
